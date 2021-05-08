@@ -8,6 +8,7 @@
     <p>{{ section.content | safe }}</p>
 
     {% for page in section.pages %}
+
     <h3>
         <a href="{{ page.permalink | safe}}">{{ page.title }}</a>
     </h3>
@@ -17,6 +18,7 @@
         {{ page.summary | safe}}
     </p>
     <a href="{{ page.permalink | safe}}">Read more ...</a>
+
     {% endfor %}
 </div>
 
