@@ -1,20 +1,3 @@
-.ul-styled {
-    margin: 0;
-    padding: 0;
-
-    li {
-        list-style-type: none;
-        border: 1px solid lightgray;
-        border-radius: 5px;
-        padding: 20px;
-        margin-bottom: 20px;
-
-        &:hover {
-            background-color: lightgray;
-        }
-    }
-}
-
 a {
     color: black;
 }

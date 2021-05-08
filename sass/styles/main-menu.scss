@@ -1,0 +1,31 @@
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+
+        li {
+            list-style-type: none;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding: 20px;
+            margin-right: 20px;
+
+            &:hover {
+                background-color: lightgray;
+            }
+
+            @media(min-width: 1338px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    @media(max-width: 1337px) {
+        flex-direction: row;
+    }
+}
