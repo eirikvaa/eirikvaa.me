@@ -5,6 +5,8 @@
 <div class="blog">
     <h1>{{ section.title }}</h1>
 
+    <p>{{ section.content | safe }}</p>
+
     <ul class="blog-menu">
         {% for page in section.pages %}
         <a href="{{ page.permalink | safe }}">
