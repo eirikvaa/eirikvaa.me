@@ -11,23 +11,12 @@
 <body>
 <main class="content">
     <div class="left-content">
-        <h1 class="title">
-            eirikvaa.me
-        </h1>
-
-        <ul class="main-menu">
-            <a href="/">
-                <li>Home</li>
-            </a>
-            <a href="/blog/">
-                <li>Blog</li>
-            </a>
-            <a href="/about/">
-                <li>About</li>
-            </a>
-        </ul>
+        <h1 class="title">eirikvaa.me</h1>
+        {% include "_main-menu.html" %}
     </div>
+
     <div class="divider"></div>
+
     <div class="right-content">
         {% block content %} {% endblock %}
     </div>
