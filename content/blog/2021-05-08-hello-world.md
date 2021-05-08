@@ -9,6 +9,8 @@ am, naturally I had to explore my options. Several years ago I dipped my toe int
 pretty good overview of Ruby on Rails, and I've written the classical "Hello World" program in lots of web frameworks,
 so it felt quite overwhelming.
 
+<!-- more -->
+
 Last year I started the work on a personal website written in Ruby on Rails, because that was what I had most recently
 worked on. I spent lots of time setting every thing up, with all the bells and whistles that come with the beast that is
 Ruby on Rails. Then, when the complexity of it all dawned on me, I dropped it like a hot potato for never to look at it
