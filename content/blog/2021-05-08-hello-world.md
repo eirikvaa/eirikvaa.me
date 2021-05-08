@@ -1,31 +1,34 @@
 +++
 title = "Hello, world!"
 date = 2021-05-08
-draft = true
 +++
 
-I have been mulling over the question of creating my own website for quite some time now. Like the software developer I
-am, naturally I had to explore my options. Several years ago I dipped my toe into WordPress, during my studies I got a
-pretty good overview of Ruby on Rails, and I've written the classical "Hello World" program in lots of web frameworks,
-so it felt quite overwhelming.
+I've been mulling over the question of creating my own website for quite some time now. I've done my fair share of web
+development, and since I'm a sucker for side projects, I've felt for some time that I should get my act together. Still,
+the biggest question of all remained: Which technology stack should I use?
 
 <!-- more -->
 
-Last year I started the work on a personal website written in Ruby on Rails, because that was what I had most recently
-worked on. I spent lots of time setting every thing up, with all the bells and whistles that come with the beast that is
-Ruby on Rails. Then, when the complexity of it all dawned on me, I dropped it like a hot potato for never to look at it
-again.
+Last year I started working on a personal site written in Ruby on Rails. I knew this framework from my time working on
+the website for the Student Society in Trondheim, [Samfundet](https://samfundet.no/), which is built with Rails. I
+worked tirelessly for a good week before I dropped it like a hot potato, which frankly is more than I can say for some
+of my other side projects. The reason was due to the complexity of it all. A large web framework with all the bells and
+whistles. It just felt unnecessary. I wanted something simpler. To be honest, this was one of the ways I procrastinated
+when I wrote my master's thesis, so I didn't really have time to dive too much into it at the time, so I set it aside.
 
-More recently, I started to look into the concept of a static-site generator (SSG) because of the need for something
-simple. I found the usual suspects like Jekyll (which GitHub Pages integrates with) and Hugo. Since I'm an iOS
-developer, I could have gone with [Publish](https://github.com/johnsundell/publish). Still, maybe I wanted something
-more crude and old-school. So I ended up with [Zola](https://www.getzola.org/). It's written in Rust and has been a
-blast to work with. I can dabble in HTML, CSS and JavaScript to my hearts desire and not have to think about complicated
-APIs, build systems, et cetera. In the end my technology stack is made up of vanilla HTML, CSS and JavaScript, as well
-as Markdown as the main blog content. That stuff is for the ages. If Zola bites the dust, I'm sure I'll find a
-replacement, and I'm sure that it's manageable to write a replacement. Famous last words.
+I started working full-time at Airthings the summer of 2020, after two summer internships in 2018 and 2019, as well as
+working part-time during my studies. Compared with university studies and my master's thesis, working full-time gives my
+actually _a lot_ more free-time. So recently I've dug into the concept of a static site generator (
+SSG), which I've only heard about in passing before checking it more out the last few weeks. I came across a whole range
+of candidates, like [Jekyll](https://jekyllrb.com/), but since I've been checking out Rust recently, the hunt led me
+to [Zola](https://www.getzola.org/). I first tried to integrate it with GitHub Pages, but I ended up
+using [Netlify](https://www.netlify.com/), which using the two of them has been an absolute blast.
 
-I'm not really sure _why_ I'm starting to write this blog. Will I have anything interesting to bring to the larger
-audience? Will people come and read? I don't really care about that last one. Anyway, here I am, finally, with my
-contribution to the Internet. I'm sure _no_ single soul will read this, but at least I'm here. Here's to the way
-forward!
+What I like about static site generators are how easy they are to work with. After finding a static site engine in a
+language I liked, and a templating engine that made sense to me, I was off. I can dabble in those eternal technologies
+as HTML, CSS (SCSS, actually), JavaScript and Markdown. Generating the static files is super quick, deploying the site
+to Netlify is just as fast. Serving through HTTPS was a matter of clicking a button and waiting 24 hours. As I've said,
+it's been a blast to get everything up.
+
+The question that remains is this: Will I have anything wise to say? Probably not, but I'll try to whisper something
+into the ether anyway and see what happens.  
