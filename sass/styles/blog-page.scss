@@ -1,4 +1,10 @@
 .blog-page {
+    width: 65%;
+
+    @media(max-width: 1337px) {
+        width: 75%;
+    }
+
     pre {
         padding: 20px;
         border-radius: 5px;
