@@ -1,0 +1,29 @@
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+
+        margin-right: 20px;
+
+        &:hover {
+            text-decoration-line: underline;
+            text-decoration-style: double;
+            text-decoration-color: black;
+            text-underline-offset: 10px;
+        }
+
+        @media(min-width: 1338px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media(max-width: 1337px) {
+        flex-direction: row;
+    }
+}
