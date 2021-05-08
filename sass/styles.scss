@@ -3,6 +3,10 @@
 @import "styles/blog-page";
 @import "styles/utilities.scss";
 
+html, body {
+    height: 100vh;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -27,4 +31,8 @@ body {
 
 .right-content {
     flex: 1;
+}
+
+.divider {
+    border-left: 1px solid lightgray;
 }
