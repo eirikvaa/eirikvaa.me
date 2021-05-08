@@ -3,24 +3,15 @@
 @import "styles/blog-page";
 @import "styles/utilities.scss";
 
-html, body {
-    height: 100vh;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .content {
     /**
     This is apparently a key component of the sticky footer.
      */
-    flex: 1 0 auto;
     display: flex;
+    flex: 1 0 auto;
     justify-content: space-between;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5%;
     gap: 0 100px;
 }
@@ -30,9 +21,15 @@ body {
 }
 
 .right-content {
-    flex: 1;
+    flex: 3;
 }
 
 .divider {
     border-left: 1px solid lightgray;
+}
+
+@media(max-width: 1337px) {
+    .content {
+        flex-direction: column;
+    }
 }
