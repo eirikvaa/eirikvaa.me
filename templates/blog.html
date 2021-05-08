@@ -3,17 +3,15 @@
 {% block content %}
 
 <div class="blog">
-    <h1>Blog</h1>
-
-    {% for page in section.pages %}
+    <h1>{{ section.title }}</h1>
 
     <ul class="blog-menu">
+        {% for page in section.pages %}
         <a href="{{ page.permalink | safe }}">
             <li><span>{{ page.date }}</span> {{ page.title }}</li>
         </a>
+        {% endfor %}
     </ul>
 </div>
-
-{% endfor %}
 
 {% endblock %}
