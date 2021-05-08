@@ -4,6 +4,32 @@
 @import "styles/utilities.scss";
 @import "styles/main-menu.scss";
 
+body {
+    font-size: 1.3em;
+    font-family: 'Jetbrains Mono Regular', serif;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Regular';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Jetbrains Mono Regular'), url("../static/fonts/JetbrainsMono-Regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Bold';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Jetbrains Mono Bold'), url("../static/fonts/JetbrainsMono-Bold.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Italic';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Jetbrains Mono Italic'), url("../static/fonts/JetbrainsMono-Italic.woff2") format('woff2');
+}
+
 .content {
     /**
     This is apparently a key component of the sticky footer.
