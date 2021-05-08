@@ -1,13 +1,18 @@
 @import "styles/footer";
 @import "styles/blog.scss";
 @import "styles/blog-page";
-@import "styles/utilities.scss";
+@import "styles/global.scss";
 @import "styles/main-menu.scss";
+@import "styles/about.scss";
 
 body {
     font-size: 1.3em;
     line-height: 1.4em;
     font-family: 'Jetbrains Mono Regular', serif;
+}
+
+h1 {
+    line-height: 1.1em;
 }
 
 @font-face {

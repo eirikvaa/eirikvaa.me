@@ -1,0 +1,7 @@
+.about {
+    width: 65%;
+
+    @media(max-width: 1337px) {
+        width: 75%;
+    }
+}
