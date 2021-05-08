@@ -3,19 +3,29 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>eirikvaa.me</title>
+    <title>{% if page.title %}{{ page.title }} {% else %} eirikvaa.me {% endif %}</title>
     <link rel=stylesheet href={{ get_url(path="styles.css" ) }}>
 </head>
 
 <body>
 <main class="content">
     <div class="left-content">
-        {% block menu %} {% endblock %}
+        <h1 class="title">
+            Eirik Vale Aase
+        </h1>
+
+        <ul class="ul-styled">
+            <a href="/">
+                <li>Home</li>
+            </a>
+            <a href="/blog/">
+                <li>Blog</li>
+            </a>
+        </ul>
     </div>
     <div class="right-content">
         {% block content %} {% endblock %}
     </div>
 </main>
-<footer id="footer"></footer>
 <script type="text/javascript" src={{ get_url(path="main.js" ) }}></script>
 </body>

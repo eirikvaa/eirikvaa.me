@@ -1,30 +1,30 @@
 @import "styles/footer";
-@import "styles/menu.scss";
-
-html, body {
-  height: 100%;
-}
+@import "styles/blog.scss";
+@import "styles/blog-page";
+@import "styles/utilities.scss";
 
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
-  /**
-  This is apparently a key component of the sticky footer.
-   */
-  flex: 1 0 auto;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 25%;
-  margin-top: 25%;
+    /**
+    This is apparently a key component of the sticky footer.
+     */
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    gap: 0 100px;
 }
 
 .left-content {
-  flex: 1;
+    flex: 1;
 }
 
 .right-content {
-  flex: 1;
+    flex: 1;
 }

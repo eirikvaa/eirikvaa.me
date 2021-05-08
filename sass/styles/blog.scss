@@ -1,0 +1,11 @@
+.blog {
+    a {
+        &:link {
+            text-decoration: none;
+        }
+    }
+
+    span {
+        text-decoration: underline;
+    }
+}
