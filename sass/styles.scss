@@ -36,7 +36,7 @@ h1 {
     src: local('Jetbrains Mono Italic'), url("../static/fonts/JetbrainsMono-Italic.woff2") format('woff2');
 }
 
-.content {
+.container {
     /**
     This is apparently a key component of the sticky footer.
      */
@@ -62,7 +62,7 @@ h1 {
 }
 
 @media(max-width: 1337px) {
-    .content {
+    .container {
         flex-direction: column;
     }
 }
