@@ -3,6 +3,7 @@ title = "Hello, world!"
 template = "home.html"
 +++
 
-Hello :wave: You've wandered into my little corner of the Interweb.
+Hi :wave: Welcome to my little corner of the Interweb.
 
-If you're wondering, the font used is the beautiful [Jetbrains Mono](https://www.jetbrains.com/lp/mono/).
+This site is built using the static site generator [Zola](https://www.getzola.org/) and the awesome [Jetbrains 
+Mono](https://www.jetbrains.com/lp/mono/) font.
