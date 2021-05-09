@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-    <title>{% if page.title %}{{ page.title }} {% else %} eirikvaa.me {% endif %}</title>
+    <title>eirikvaa.me | {% block title %} {% endblock %}</title>
     <link rel=stylesheet href={{ get_url(path="styles.css" ) }}>
 </head>
 
