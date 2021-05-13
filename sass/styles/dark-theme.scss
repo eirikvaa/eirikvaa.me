@@ -1,6 +1,7 @@
 $background-color: #222831;
 $text-color: #f8f5f1;
-$link-background-color: #f05454;
+$link-background-color: rgba(240, 84, 84, 0.60);
+$link-highlight-background-color: rgba(240, 84, 84, 1.00);
 
 body {
     @media(prefers-color-scheme: dark) {
@@ -31,6 +32,12 @@ a {
     a {
         @media(prefers-color-scheme: dark) {
             background-color: $link-background-color;
+        }
+
+        &:hover {
+            @media(prefers-color-scheme: dark) {
+                background-color: $link-highlight-background-color;
+            }
         }
     }
 }
