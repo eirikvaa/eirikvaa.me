@@ -18,9 +18,9 @@ when I wrote my master's thesis, so I didn't really have time to dive too much i
 
 I started working full-time at Airthings the summer of 2020, after two summer internships in 2018 and 2019, as well as
 working part-time during my studies. Compared with university studies and my master's thesis, working full-time gives my
-actually _a lot_ more free-time. So recently I've dug into the concept of a static site generator (
-SSG), which I've only heard about in passing before checking it more out the last few weeks. I came across a whole range
-of candidates, like [Jekyll](https://jekyllrb.com/), but since I've been checking out Rust recently, the hunt led me
+actually _a lot_ more free-time. So recently I've dug into the concept of a static site generator (SSG), which I've only
+heard about in passing before checking it more out the last few weeks. I came across a whole range of candidates,
+like [Jekyll](https://jekyllrb.com/), but since I've been checking out Rust recently, the hunt led me
 to [Zola](https://www.getzola.org/). I first tried to integrate it with GitHub Pages, but I ended up
 using [Netlify](https://www.netlify.com/), which using the two of them has been an absolute blast.
 
