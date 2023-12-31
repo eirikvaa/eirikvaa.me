@@ -7,8 +7,6 @@ I've been mulling over the question of creating my own website for quite some ti
 development, and since I'm a sucker for side projects, I've felt for some time that I should get my act together. Still,
 the biggest question of all remained: Which technology stack should I use?
 
-<!-- more -->
-
 Last year I started working on a personal site written in Ruby on Rails. I knew this framework from my time working on
 the website for the Student Society in Trondheim, [Samfundet](https://samfundet.no/), which is built with Rails. I
 worked tirelessly for a good week before I dropped it like a hot potato, which frankly is more than I can say for some
