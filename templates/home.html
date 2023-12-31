@@ -8,6 +8,20 @@
     <h2 class="home-title">{{ section.title }}</h2>
 
     <p>{{ section.content | safe }}</p>
+
+    <h3>Latest articles</h3>
+
+    {% for page in section.pages %}
+
+    <p>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </p>
+
+    <p class="blog-entry-meta">
+        {{ page.date }}
+    </p>
+
+    {% endfor %}
 </div>
 
 {% endblock %}
