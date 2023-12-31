@@ -3,7 +3,5 @@ title = "Hello, world!"
 template = "home.html"
 +++
 
-Hi :wave: Welcome to my little corner of the Interweb.
-
-This site is built using the static site generator [Zola](https://www.getzola.org/) and the awesome [Jetbrains 
-Mono](https://www.jetbrains.com/lp/mono/) font.
+Hi :wave: My name is Eirik Vale Aase, and I work as a software developer at [Airthings](https://airthings.com). I enjoy video
+games, programming languages, compilers, guitar playing and hiking. I live on [GitHub](https://github.com/eirikvaa).
