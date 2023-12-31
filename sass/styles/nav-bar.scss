@@ -1,13 +1,9 @@
 .nav-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
     margin: 0;
     padding: 0;
-
-    @media(max-width: 1337px) {
-        justify-content: center;
-    }
 
     a {
         text-decoration: none;
@@ -26,7 +22,7 @@
         }
     }
 
-    @media(max-width: 1337px) {
-        flex-direction: row;
+    .root-link {
+        font-weight: bold;
     }
 }

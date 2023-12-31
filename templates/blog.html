@@ -5,23 +5,19 @@
 {% block content %}
 
 <div class="blog">
-    <h2 class="blog-title-link">{{ section.title }}</h2>
-
     <p>{{ section.content | safe }}</p>
 
     {% for page in section.pages %}
 
-    <h3 class="blog-entry-title">
+    <h2 class="blog-entry-title">
         <a href="{{ page.permalink | safe}}">{{ page.title }}</a>
-    </h3>
+    </h2>
 
     <em class="blog-entry-meta">
         {{ page.date }} - {{ page.reading_time}} minute reading
     </em>
 
     {{ page.summary | safe }}
-
-    <em class="blog-entry-read-more-link"><a href="{{ page.permalink | safe}}">Read more -></a></em>
 
     {% endfor %}
 </div>

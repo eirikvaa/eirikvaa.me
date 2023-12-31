@@ -1,31 +1,4 @@
 .blog {
-    .blog-title-link {
-        @media(max-width: 1337px) {
-            text-align: center;
-        }
-    }
-
-    .blog-entry-title {
-        @media(max-width: 1337px) {
-            text-align: center;
-        }
-    }
-
-    .blog-entry-meta {
-        display: block;
-
-        @media(max-width: 1337px) {
-            text-align: center;
-        }
-    }
-
-    .blog-entry-read-more-link {
-        display: block;
-        @media(max-width: 1337px) {
-            text-align: center;
-        }
-    }
-
     a {
         &:link {
             text-decoration: none;
@@ -52,10 +25,6 @@
             }
 
             width: 50%;
-
-            @media(max-width: 1337px) {
-                width: 100%;
-            }
         }
     }
 }

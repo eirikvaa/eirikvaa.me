@@ -2,9 +2,7 @@
     .blog-page-title {
         font-family: 'JetBrains Mono Italic', serif;
 
-        @media(max-width: 1337px) {
-            text-align: center;
-        }
+        text-align: left;
     }
 
     pre {
