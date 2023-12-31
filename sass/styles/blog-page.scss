@@ -1,7 +1,5 @@
 .blog-page {
     .blog-page-title {
-        font-family: 'JetBrains Mono Italic', serif;
-
         text-align: left;
     }
 
@@ -12,8 +10,6 @@
     }
 
     .blog-published-date {
-        font-family: 'JetBrains Mono Italic', serif;
-
         @media(max-width: 1337px) {
             text-align: center;
         }
