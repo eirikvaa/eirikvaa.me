@@ -13,15 +13,19 @@
 
     {% for page in section.pages %}
 
-    <p>
-        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-    </p>
+        {% if loop.index <= 3 %}
+            <p>
+                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            </p>
 
-    <p class="blog-entry-meta">
-        {{ page.date }}
-    </p>
+            <p class="blog-entry-meta">
+                {{ page.date }}
+            </p>
+        {% endif %}
 
     {% endfor %}
+
+    <a href="/blog">Read more…</a>
 </div>
 
 {% endblock %}

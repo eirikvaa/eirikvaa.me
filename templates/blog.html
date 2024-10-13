@@ -9,9 +9,9 @@
 
     {% for page in section.pages %}
 
-    <h2 class="blog-entry-title">
-        <a href="{{ page.permalink | safe}}">{{ page.title }}</a>
-    </h2>
+    <p>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </p>
 
     <em class="blog-entry-meta">
         {{ page.date }}
