@@ -1,5 +1,6 @@
 +++
 title = "Hello, world!"
+sort_by = "date"
 template = "home.html"
 +++
 
