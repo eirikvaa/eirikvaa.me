@@ -6,43 +6,43 @@
 @import "styles/dark-theme.scss";
 
 body {
-    font-size: 1.1em;
-    line-height: 1.3em;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .container {
-    /**
-    This is apparently a key component of the sticky footer.
-     */
-    display: flex;
-    flex: 1 0 auto;
-    justify-content: space-between;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    gap: 0 100px;
+  /**
+  This is apparently a key component of the sticky footer.
+   */
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  gap: 0 100px;
 
-    @media only screen and (max-width: 600px) {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+  @media only screen and (max-width: 600px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 .left-content {
-    flex: 1;
-    text-align: center;
+  flex: 1;
+  text-align: center;
 }
 
 .right-content {
-    flex: 3;
+  flex: 3;
 }
 
 .divider {
-    border-left: 1px solid lightgray;
+  border-left: 1px solid lightgray;
 }
 
 .container {
-    flex-direction: column;
-    text-align: justify;
+  flex-direction: column;
+  text-align: justify;
 }
