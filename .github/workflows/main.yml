@@ -30,14 +30,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: taiki-e/install-action@v2
         with:
-          tool: zola@0.19.2
+          tool: zola@0.20.0
       - name: Build with Zola
         run: zola build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
   deploy:
